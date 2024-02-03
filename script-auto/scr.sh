@@ -1,5 +1,5 @@
 #! /bin/bash
-print("begin")
+echo "begin"
 chmod +x scr.pl
 perl scr.pl
-print("end")
+echo "end"
