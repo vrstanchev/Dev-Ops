@@ -1,6 +1,7 @@
 #!usr/bin/perl -w
- my @array=("fst", "snd","trd");
-for($i=0;i<=3;$i++){
-print($array[i]);
+ my @array=(1, 2,3);
+for($i=0;$i<=3;$i++){
+print($array[$i]);
+if($array[$i]==3){last;}
 }
 print("Done");

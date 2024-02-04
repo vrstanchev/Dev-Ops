@@ -1,4 +1,5 @@
-FROM make:latest
+FROM perl:latest
+WORKDIR ~/Dev-Ops/script-auto
 COPY Makefile / 
-CMD["make","run"]
+CMD ["perl","scr.pl"]
 
