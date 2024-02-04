@@ -1,5 +1,5 @@
 FROM perl:latest
 WORKDIR ~/Dev-Ops/script-auto
-COPY Makefile / 
+COPY scr.pl  / 
 CMD ["perl","scr.pl"]
 
