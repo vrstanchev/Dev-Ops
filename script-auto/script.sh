@@ -1,5 +1,5 @@
 #! /bin/bash
 echo "begin"
-chmod +x scr.pl
-perl scr.pl
+chmod +x script.pl
+perl script.pl
 echo "end"

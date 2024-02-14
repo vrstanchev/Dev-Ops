@@ -1,5 +1,5 @@
 #!/bin/bash
-perl scr.pl
-bash scr.sh
-make scr
+perl script.pl
+bash script.sh
+make script
 echo "Check done before Devops Deploy"

@@ -1,4 +1,4 @@
-scr: scr.sh
-	chmod +x scr.sh
-	./scr.sh
+script: script.sh
+	chmod +x script.sh
+	./script.sh
 	echo "Done"
